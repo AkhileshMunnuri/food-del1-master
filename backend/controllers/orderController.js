@@ -5,7 +5,7 @@ import userModel from "../models/userModel.js";
 //const stripe= new Stripe(process.env.STRIPE_SECRET_KEY)
 //placing user order for frontend
 const  placeOrder=async(req,res)=>{
-    const frontend_url="https://food-del1-frontend.onrender.com/";
+    const frontend_url="https://food-del1-frontend-xu9z.onrender.com/";
 
     try {
         const newOrder=new orderModel({
